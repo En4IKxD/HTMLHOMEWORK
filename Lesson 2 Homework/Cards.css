@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    flex-direction: column;
+}
+.CardsBlock {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+.CardTitle {
+    color: black;
+}
+.CardText {
+    color: silver;
+}
+.LearnMore {
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: large;
+    margin-top: 10%;
+    margin-bottom: -10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
