@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+.MainBody{
+    background: #fdfdfd;
+    height: 890px;
+}
+.UpBig {
+    background: #2269ba;
+    height: 250px;
+    /*width: 400px;*/
+    box-sizing: border-box;
+    margin: 10px;
+}
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    vertical-align: middle; /*Цю частину коду я Гуглив */
+    position: relative; /*Цю частину коду я Гуглив */
+    top: 50%; /*Цю частину коду я Гуглив */
+    transform: translateY(-50%); /*Цю частину коду я Гуглив */
+}
+.MidBody {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.MidSmall {
+    box-sizing: border-box;
+    margin: 10px;
+    background: #164579;
+    height: 200px;
+    width: 350px;
+}
+.LowBig {
+    box-sizing: border-box;
+    margin: 10px;
+    background: #2269ba;
+    height: 400px;
+    /*width: 400px;*/
+}

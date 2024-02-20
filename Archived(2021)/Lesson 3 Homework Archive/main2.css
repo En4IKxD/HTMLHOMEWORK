@@ -1,0 +1,58 @@
+.body {
+    margin: 0;
+}
+.Header {
+    height: 200px;
+    background: #0c65a6;
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Nav {
+    height: 150px;
+    background: #124b76;
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.MainAside {
+    display: flex;
+}
+.Main {
+    height: 600px;
+    width: 1600px;
+    background: #16a1c4;
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Aside {
+    height: 600px;
+    width: 500px;
+    background: #5274ac;
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Footer {
+    height: 150px;
+    background: #7ccbe2;
+    color: whitesmoke;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
