@@ -6,7 +6,7 @@ body {
     height: 890px;
 }
 .UpBig {
-    background: deepskyblue;
+    background: #2269ba;
     height: 250px;
     /*width: 400px;*/
     box-sizing: border-box;
@@ -28,14 +28,14 @@ h2 {
 .MidSmall {
     box-sizing: border-box;
     margin: 10px;
-    background: midnightblue;
+    background: #164579;
     height: 200px;
     width: 350px;
 }
 .LowBig {
     box-sizing: border-box;
     margin: 10px;
-    background: deepskyblue;
+    background: #2269ba;
     height: 400px;
     /*width: 400px;*/
 }
