@@ -1,0 +1,78 @@
+.body {
+    height: 900px;
+    display: flex;
+}
+
+.basis {
+    background: silver;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 576px) and (max-width: 2400px) {
+    .A3 {
+        height: 300px;
+        box-sizing: border-box;
+        margin-left: 10px;
+    }
+
+    .BCDEFGH3{
+        height: 600px;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .BCD3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .EFG3 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bxs3 {
+        height: 300px;
+        width: 575px;
+        margin: 10px;
+    }
+    .H3 {
+        height: 622px;
+        width: 575px;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .A3 {
+        width: 536px;
+        height: 200px;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    .bxs3 {
+        width: 100px;
+        margin: 10px;
+    }
+    .BCD3 {
+        width: 536px;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .EFG3 {
+        width: 536px;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .H3 {
+        width: 536px;
+        height: 400px;
+        margin: 10px;
+        box-sizing: border-box
+    }
+}
