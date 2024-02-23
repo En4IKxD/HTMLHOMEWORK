@@ -1,0 +1,99 @@
+.body {
+    height: 900px;
+    display: flex;
+}
+
+.basis {
+    background: silver;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 576px) and (max-width: 2400px) {
+    .A2 {
+        height: 300px;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+
+    .BCDEF2 {
+        height: 600px;
+        margin: 10px;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .BCDE2 {
+    }
+
+    .B2 {
+        height: 300px;
+        width: 1800px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .CDE2 {
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .C2 {
+        width: 590px;
+        margin-top: 10px;
+    }
+
+    .D2 {
+        width: 590px;
+        margin-top: 10px;
+    }
+
+    .E2 {
+        width: 590px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .F2 {
+        width: 600px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .A2 {
+        width: 536px;
+        height: 150px;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    .B2 {
+        width: 536px;
+        height: 300px;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+    .CDE2 {
+        width: 536px;
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .C2 {
+        width: 100px;
+    }
+    .D2 {
+        width: 100px;
+    }
+    .E2 {
+        width: 100px;
+    }
+    .F2 {
+        width: 536px;
+        height: 150px;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+}
